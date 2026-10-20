@@ -23,7 +23,8 @@ function goodTime() {
         tr: ["Günaydın", "Tünaydın", "İyi akşamlar", "İyi geceler"],
         he: ["בוקר טוב", "צהריים טובים", "ערב טוב", "לילה טוב"],
         pl: ["Dzień dobry", "Dzień dobry", "Dobry wieczór", "Dobranoc"],
-        fa: ["صبح بخیر", "ظهر بخیر", "عصر بخیر", "شب بخیر"] // فارسی
+        fa: ["صبح بخیر", "ظهر بخیر", "عصر بخیر", "شب بخیر"], // فارسی
+        sw: ["Asubuhi njema", "Habari za mchana", "Habari za jioni", "Usiku mwema"],
     };
 
     function getMessage(lang) {
@@ -61,7 +62,8 @@ function goodTime() {
         tr: () => getMessage('tr'),
         he: () => getMessage('he'),
         pl: () => getMessage('pl'),
-        fa: () => getMessage('fa')
+        fa: () => getMessage('fa'),
+        sw: () => getMessage('sw')
     };
 }
 
