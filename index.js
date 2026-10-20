@@ -62,7 +62,8 @@ function goodTime() {
         tr: () => getMessage('tr'),
         he: () => getMessage('he'),
         pl: () => getMessage('pl'),
-        fa: () => getMessage('fa')
+        fa: () => getMessage('fa'),
+        sw: () => getMessage('sw')
     };
 }
 
